@@ -1,0 +1,1 @@
+/home/austen/Documents/school/research/scraper/target/debug/main: /home/austen/Documents/school/research/scraper/src/bin/main.rs /home/austen/Documents/school/research/scraper/src/lib.rs /home/austen/Documents/school/research/scraper/src/models.rs /home/austen/Documents/school/research/scraper/src/schema.rs /home/austen/Documents/school/research/scraper/src/scraper.rs

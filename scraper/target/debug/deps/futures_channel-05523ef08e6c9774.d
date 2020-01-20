@@ -1,0 +1,11 @@
+/home/austen/Documents/school/research/scraper/target/debug/deps/futures_channel-05523ef08e6c9774.rmeta: /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/lib.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/lock.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/mpsc/mod.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/mpsc/queue.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/oneshot.rs
+
+/home/austen/Documents/school/research/scraper/target/debug/deps/libfutures_channel-05523ef08e6c9774.rlib: /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/lib.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/lock.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/mpsc/mod.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/mpsc/queue.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/oneshot.rs
+
+/home/austen/Documents/school/research/scraper/target/debug/deps/futures_channel-05523ef08e6c9774.d: /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/lib.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/lock.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/mpsc/mod.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/mpsc/queue.rs /home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/oneshot.rs
+
+/home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/lib.rs:
+/home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/lock.rs:
+/home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/mpsc/mod.rs:
+/home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/mpsc/queue.rs:
+/home/austen/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.1/src/oneshot.rs:
