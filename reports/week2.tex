@@ -1,0 +1,88 @@
+\documentclass{article}
+
+\usepackage{fancyhdr}
+\usepackage{extramarks}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usepackage[plain]{algorithm}
+\usepackage{algpseudocode}
+\usepackage{hyperref}
+
+\usetikzlibrary{automata,positioning}
+
+%
+% Basic Document Settings
+%
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+
+\pagestyle{fancy}
+\lhead{\hmwkAuthorName}
+\chead{\hmwkClass\ : \hmwkTitle}
+\rhead{\hmwkClassInstructor}
+\cfoot{\thepage}
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\setlength\parindent{0pt}
+%
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Section/Time
+%   - Instructor
+%   - Author
+%
+
+\newcommand{\hmwkTitle}{Report Week 2}
+\newcommand{\hmwkDueDate}{January 27, 2020}
+\newcommand{\hmwkClass}{URMP}
+\newcommand{\hmwkClassInstructor}{Panayot Vassilevski}
+\newcommand{\hmwkAuthorName}{\textbf{Austen Nelson}}
+
+%
+% Title Page
+%
+
+\title{
+    \vspace{2in}
+    \textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
+    \normalsize\vspace{0.1in}\small{\hmwkDueDate}\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor}}
+    \vspace{3in}
+}
+
+\author{\hmwkAuthorName}
+\date{}
+
+\begin{document}
+
+\maketitle
+\pagebreak
+
+\section{Progress}
+This week I made decent progress on cleaning and organizing the data I collected. I spent some time annotating my ingredient phrases with
+tags so I could put my data through a conditional random field to parse out the extra information and separate a phase into quantity,
+measurement, and name. The tool I used is CRF++. This tool doesn't have any API and only deals with external data files but I integrated the
+installed program into my rust data-flow. The accuracy isn't prefect but it is working well enough to begin analysis. My dataset has over 40,000
+recipes with around 15,000 unique ingredients. With this information it was pretty trivial to create the bipartite graph between recipes and
+ingredients. I did some very basic exploration like looking at the most commonly used ingredients.
+
+\section{Plans}
+The next step will be to create the other data structures that I have planned and begin doing analysis on the data. I'm still doing research
+on the analysis that I am going to do and am meeting with my advisor on Thursday the 30th. I also plan on writing some other scrapers and spiders
+for recipes other than allrecipes. Even though the allrecipes database is large, it seems to be lower quality and geared towards writing
+recipes around products that companies pay the site to promote. It would be interesting to see if analysis differs between platforms.
+
+\end{document}
