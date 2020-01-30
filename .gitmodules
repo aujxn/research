@@ -1,0 +1,3 @@
+[submodule "recipe_analysis"]
+	path = recipe_analysis
+	url = git@github.com:aujxn/recipe_analysis
