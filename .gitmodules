@@ -10,3 +10,6 @@
 [submodule "linalgcpp"]
 	path = linalgcpp
 	url = git@github.com:aujxn/linalgcpp
+[submodule "ingredient-phrase-tagger"]
+	path = ingredient-phrase-tagger
+	url = git@github.com:aujxn/ingredient-phrase-tagger
