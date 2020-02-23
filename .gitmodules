@@ -4,9 +4,6 @@
 [submodule "graph-embed"]
 	path = graph-embed
 	url = git@github.com:aujxn/graph-embed
-[submodule "crfpp"]
-	path = crfpp
-	url = git@github.com:aujxn/crfpp
 [submodule "linalgcpp"]
 	path = linalgcpp
 	url = git@github.com:aujxn/linalgcpp
