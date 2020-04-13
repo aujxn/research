@@ -7,3 +7,6 @@
 [submodule "linalgcpp"]
 	path = linalgcpp
 	url = git@github.com:aujxn/linalgcpp
+[submodule "recipe-personalization"]
+	path = recipe-personalization
+	url = git@github.com:aujxn/recipe-personalization

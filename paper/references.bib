@@ -1,0 +1,113 @@
+@techreport{Quiring19,
+   author =          {Quiring, Benjamin G. and Vassilevski, Panayot S.},
+   title =           {Properties of the Graph Modularity Matrix and its Applications},
+   number =          {LLNL-TR-779424},
+   institution =     {Lawrence Livermore National Lab},
+   address =         {Livermore, California},
+   abstractNote =    {We study the popular modularity matrix and respective functional used in
+                      connection with graph clustering and derive some properties useful when
+                      performing vertex aggregation of the associated graph. These properties are
+                      employed in the derivation of a multilevel parallel pairwise aggregation
+                      algorithm. Some illustrative examples which include algebraic multigrid
+                      (AMG) coarsening that follows strong direction of anisotropy in finite
+                      element problems as well as comparative performance results of the studied
+                      algorithm are presented.},
+   keywords =        {graphs, multilevel algorithms, graph modularity},
+   doi =             {10.2172/1529818},
+   journal =         {},
+   number =          {},
+   volume =          {},
+   place =           {United States},
+   year =            {2019},
+   month =           {6},
+   author1_url =     {},
+   author1_email =   {},
+   author2_url =     {},
+   author2_email =   {},
+   pages =           {13},
+   file =            {}
+}
+
+@misc{BoL,
+   title =           {Food Services and Drinking Places: NAICS 722},
+   howpublished =    {\url{https://www.bls.gov/iag/tgs/iag722.htm}},
+   note =            {Accessed: 2020-04-06},
+}
+
+@misc{mtlynch,
+   title =           {Ingredient Phrase Tagger},
+   author =          {Lynch, Michael},
+   howpublished =    {\url{https://github.com/aujxn/ingredient-phrase-tagger}},
+   note =            {Accessed: 2020-02-22},
+}
+
+@inproceedings{Majumder19,
+    title =          {Generating Personalized Recipes from Historical User Preferences},
+    author =         {Majumder, Bodhisattwa Prasad and Li, Shuyang and Ni, Jianmo and McAuley,
+                      Julian},
+    booktitle =      {Proceedings of the 2019 Conference on Empirical Methods in Natural Language
+                      Processing and the 9th International Joint Conference on Natural Language
+                      Processing (EMNLP-IJCNLP)},
+    month =          {nov},
+    year =           {2019},
+    address =        {Hong Kong, China},
+    publisher =      {Association for Computational Linguistics},
+    url =            {https://www.aclweb.org/anthology/D19-1613},
+    doi =            {10.18653/v1/D19-1613},
+    pages =          {5976--5982},
+    abstract =       {Existing approaches to recipe generation are unable to create recipes for
+                      users with culinary preferences but incomplete knowledge of ingredients in
+                      specific dishes. We propose a new task of personalized recipe generation to
+                      help these users: expanding a name and incomplete ingredient details into
+                      complete natural-text instructions aligned with the user{'}s historical
+                      preferences. We attend on technique- and recipe-level representations of a
+                      user{'}s previously consumed recipes, fusing these {`}user-aware{'}
+                      representations in an attention fusion layer to control recipe text
+                      generation. Experiments on a new dataset of 180K recipes and 700K
+                      interactions show our model{'}s ability to generate plausible and
+                      personalized recipes compared to non-personalized baselines.},
+}
+
+@article{Makhzani16,
+	title = {Adversarial {Autoencoders}},
+	url = {http://arxiv.org/abs/1511.05644},
+	abstract = {In this paper, we propose the “adversarial autoencoder” (AAE), which is a probabilistic autoencoder that uses the recently proposed generative adversarial networks (GAN) to perform variational inference by matching the aggregated posterior of the hidden code vector of the autoencoder with an arbitrary prior distribution. Matching the aggregated posterior to the prior ensures that generating from any part of prior space results in meaningful samples. As a result, the decoder of the adversarial autoencoder learns a deep generative model that maps the imposed prior to the data distribution. We show how the adversarial autoencoder can be used in applications such as semi-supervised classiﬁcation, disentangling style and content of images, unsupervised clustering, dimensionality reduction and data visualization. We performed experiments on MNIST, Street View House Numbers and Toronto Face datasets and show that adversarial autoencoders achieve competitive results in generative modeling and semi-supervised classiﬁcation tasks.},
+	language = {en},
+	urldate = {2020-04-06},
+	journal = {arXiv:1511.05644 [cs]},
+	author = {Makhzani, Alireza and Shlens, Jonathon and Jaitly, Navdeep and Goodfellow, Ian and Frey, Brendan},
+	month = {May},
+	year = {2016},
+	note = {arXiv: 1511.05644},
+	keywords = {Computer Science - Machine Learning},
+	file = {Makhzani et al. - 2016 - Adversarial Autoencoders.pdf:/home/austen/Zotero/storage/8C99Y9ER/Makhzani et al. - 2016 - Adversarial Autoencoders.pdf:application/pdf}
+}
+
+@inproceedings{Goodfellow14,
+	title = {Generative {Adversarial} {Nets}},
+	language = {en},
+   booktitle = {Proceedings of the 2014 Conference on Advances in Neeural Information Processing Systems (NIPS)},
+   pages = {2672-2680},
+	author = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+   year = {2014},
+   month = {June},
+	pages = {9},
+	file = {Goodfellow et al. - Generative Adversarial Nets.pdf:/home/austen/Zotero/storage/4V8H6R8D/Goodfellow et al. - Generative Adversarial Nets.pdf:application/pdf}
+}
+
+@inproceedings{Radford16,
+	title = {Unsupervised {Representation} {Learning} with {Deep} {Convolutional} {Generative} {Adversarial} {Networks}},
+	url = {http://arxiv.org/abs/1511.06434},
+	abstract = {In recent years, supervised learning with convolutional networks (CNNs) has seen huge adoption in computer vision applications. Comparatively, unsupervised learning with CNNs has received less attention. In this work we hope to help bridge the gap between the success of CNNs for supervised learning and unsupervised learning. We introduce a class of CNNs called deep convolutional generative adversarial networks (DCGANs), that have certain architectural constraints, and demonstrate that they are a strong candidate for unsupervised learning. Training on various image datasets, we show convincing evidence that our deep convolutional adversarial pair learns a hierarchy of representations from object parts to scenes in both the generator and discriminator. Additionally, we use the learned features for novel tasks - demonstrating their applicability as general image representations.},
+	language = {en},
+	urldate = {2020-04-06},
+	journal = {arXiv:1511.06434 [cs]},
+	author = {Radford, Alec and Metz, Luke and Chintala, Soumith},
+   booktitle = {Proceedings of the 2016 International Conference on Learning Representations (ICLR)},
+	month = jan,
+	year = {2016},
+	note = {arXiv: 1511.06434},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning},
+	annote = {Comment: Under review as a conference paper at ICLR 2016},
+	file = {Radford et al. - 2016 - Unsupervised Representation Learning with Deep Con.pdf:/home/austen/Zotero/storage/E34QYLX2/Radford et al. - 2016 - Unsupervised Representation Learning with Deep Con.pdf:application/pdf}
+}
