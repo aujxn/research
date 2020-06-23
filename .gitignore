@@ -2,3 +2,4 @@ food_com_data/
 reports/
 gan/*.npy
 gan/*.npz
+louvain/
